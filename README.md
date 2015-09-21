@@ -15,7 +15,7 @@ Some Haskell implementations of CS251 data structures and algorithms
 Most graphs are node-labeled edge lists.
 Specifically, they are hash maps with keys in any hashable type and values consisting of node lables and a list of vertices that the edge connects to.
 
-* [shortest path](graphs/shortestPath.hs) algorithms using bredth-first search
+* [shortest path](graphs/shortestPath.hs) algorithms using breadth-first search
 * [connected components](graphs/Connected.hs) finder. Outputs a partition of the graph, with all elements connected.
 * [Kruskall's algorithm](graphs/Kruskall) for finding minimal spanning trees of a connected graph.
     * [Edge labeled graphs](graphs/Kruskall/Graph.hs) implemented using intMaps.
