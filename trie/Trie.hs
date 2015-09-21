@@ -40,7 +40,7 @@ insert bs a t = over bs amap t
   where amap Nothing = [a]
         amap (Just as) = a:as
 
-dickSize = foldr (uncurry set) empty pairs
+namePair = foldr (uncurry set) empty pairs
   where pairs = [ ("clay", 69)
                 , ("ryusuke", 104)
                 , ("jason", 4)
